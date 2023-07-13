@@ -6,11 +6,14 @@ import customDynamicImport from "./utils/plugins/custom-dynamic-import";
 import addHmr from "./utils/plugins/add-hmr";
 import watchRebuild from "./utils/plugins/watch-rebuild";
 import manifest from "./manifest";
+// import monacoEditorPlugin, { type IMonacoEditorOpts } from 'vite-plugin-monaco-editor';
+// const monacoEditorPluginDefault = ((monacoEditorPlugin as any).default) as (options: IMonacoEditorOpts) => any;
 
 const rootDir = resolve(__dirname);
 const srcDir = resolve(rootDir, "src");
 const pagesDir = resolve(srcDir, "pages");
 const assetsDir = resolve(srcDir, "assets");
+const componentsDir = resolve(srcDir, "components");
 const outDir = resolve(rootDir, "dist");
 const publicDir = resolve(rootDir, "public");
 
@@ -26,6 +29,7 @@ export default defineConfig({
       "@src": srcDir,
       "@assets": assetsDir,
       "@pages": pagesDir,
+      "@components": componentsDir,
     },
   },
   plugins: [
@@ -48,10 +52,10 @@ export default defineConfig({
     rollupOptions: {
       input: {
         devtools: resolve(pagesDir, "devtools", "index.html"),
-        panel: resolve(pagesDir, "panel", "index.html"),
-        content: resolve(pagesDir, "content", "index.ts"),
-        background: resolve(pagesDir, "background", "index.ts"),
-        contentStyle: resolve(pagesDir, "content", "style.scss"),
+        // panel: resolve(pagesDir, "panel", "index.html"),
+        // content: resolve(pagesDir, "content", "index.ts"),
+        // background: resolve(pagesDir, "background", "index.ts"),
+        // contentStyle: resolve(pagesDir, "content", "style.less"),
         popup: resolve(pagesDir, "popup", "index.html"),
         newtab: resolve(pagesDir, "newtab", "index.html"),
         options: resolve(pagesDir, "options", "index.html"),

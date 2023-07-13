@@ -9,6 +9,11 @@ const manifest: chrome.runtime.ManifestV3 = {
   version: packageJson.version,
   description: packageJson.description,
   options_page: "src/pages/options/index.html",
+  content_security_policy: {
+    extension_pages: "script-src 'self' https://gw.alipayobjects.com; object-src 'self';",
+    sandbox:
+      "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' https://gw.alipayobjects.com; child-src 'self';",
+  },
   background: {
     service_worker: "src/pages/background/index.js",
     type: "module",

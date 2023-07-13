@@ -5,8 +5,8 @@
 ![](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![](https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![](https://badges.aleen42.com/src/vitejs.svg)
-![GitHub action badge](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite/actions/workflows/build-zip.yml/badge.svg)
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Jonghakseo/chrome-extension-boilerplate-react-viteFactions&count_bg=%23#222222&title_bg=%23#454545&title=😀&edge_flat=true" alt="hits"/>
+![GitHub action badge](https://github.com/chenpx976/dog-days/actions/workflows/build-zip.yml/badge.svg)
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/chenpx976/dog-daysFactions&count_bg=%23#222222&title_bg=%23#454545&title=😀&edge_flat=true" alt="hits"/>
 
 
 > This project is listed in the [Awesome Vite](https://github.com/vitejs/awesome-vite)
@@ -67,10 +67,6 @@ This boilerplate is made for creating chrome extensions using React and Typescri
 
 <img width="314" alt="popup" src="https://user-images.githubusercontent.com/53500778/203561728-23517d46-12e3-4139-8a4f-e0b2f22a6ab3.png">
 
-## Sample <a name="sample"></a>
-- https://github.com/Jonghakseo/drag-gpt-extension
-- https://github.com/Jonghakseo/pr-commit-noti
-
 ## Documents <a name="documents"></a>
 - [Vite Plugin](https://vitejs.dev/guide/api-plugin.html)
 - [ChromeExtension](https://developer.chrome.com/docs/extensions/mv3/)
@@ -80,7 +76,7 @@ This boilerplate is made for creating chrome extensions using React and Typescri
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Jonghakseo/chrome-extension-boilerplate-react-vite&type=Date)](https://star-history.com/#Jonghakseo/chrome-extension-boilerplate-react-vite&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=chenpx976/dog-days&type=Date)](https://star-history.com/#chenpx976/dog-days&Date)
 
 
 
@@ -91,7 +87,3 @@ This boilerplate is made for creating chrome extensions using React and Typescri
 |--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | <img width="100" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo."> | <img width="100" src='https://avatars.githubusercontent.com/u/23139754?v=4' alt='Jackson Hong'/> |
 
-
----
-
-[Jonghakseo](https://nookpi.tistory.com/)
